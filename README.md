@@ -1,7 +1,7 @@
 # MicrosoftGraphAPI
 ### Using Python to consume Microsoft Graph API to create webhook from outlook Email.
 ### This project integrates with the Microsoft Graph API to manage webhooks, receive notifications, and interact with Microsoft 365 emails.
-### I n this project, we're creating a API to receive user informations within a outlook folder
+### I n this project, we're creating a API to receive user recent email messages informations within a outlook folder
 ## Environment Setup
 ### 1. Virtual Environment Setup (Optional but recommended)
 ```bash
