@@ -26,7 +26,7 @@ def _get_webhook(self):
         create_webhook = f"{api_url}/subscriptions"
         response = requests.post(create_webhook, headers=headers, json=subscription_data)
 
-        if response.status_code == 201:  # Verifica se o status é 201, indicando sucesso
+        if response.status_code == 201:  
             subscription = response.json()
             print(subscription)
             print(f"Webhook Created, Subscription ID : {subscription['id']}")
