@@ -21,7 +21,7 @@ pip install -r requirements.txt
 
 ### 4. Enviroment Configuration:
 Create a '.env' file in the project root with following information:
-``` bash
+``` python
 AZURE_CLIENT_ID=your_client_id
 AZURE_TENANT_ID=your_tenant_id
 AZURE_CLIENT_SECRET=your_client_secret
@@ -32,7 +32,7 @@ Use Flask and ngrok to test all methods after deploying it!:
 ### First to create a webhook, you need a route to receive its information
 ### note the : after you create a webhook, the route needs to be "online" and the route also needs to respond with a 200 OK with the validationToken
 ### Creating a route:
-```
+```python
 Flask-Route:
 app.route("/webhook", methods=["GET", "POST"])
 def webhook():
