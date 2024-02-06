@@ -1,4 +1,6 @@
-    def renew_subscription(self, subscription_id):
+    
+
+def renew_subscription(self, subscription_id):
         """
         Renews the webhook subscription if it needs to be renewed.
 
